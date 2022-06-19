@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(17, 35, 98);
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+.changeColor:hover{
+background-color: chartreuse;
+}
+form #input {
+    width: 90px;
+    height: 35px;
+}
+form #btnsubmit{
+    height: 35px;
+}
+
+.seepictures{
+    height: 35px;
+}
+
+.container{
+    display: none;
+    margin-left: 45%;
+    margin-right: 35%;
+    
+}
+h1{
+    color: white;
+}
+.boxCpicture{
+    display: block;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    width: 550px;
+    height: 550px;
+    background-color: aliceblue;
+}
+img{
+    width: 550px;
+    height: 550px;
+}
+/* .box-hold-picture{
+    display: block;
+} */

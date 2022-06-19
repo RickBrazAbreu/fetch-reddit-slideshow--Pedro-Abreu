@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./index.css">
+  <title>SLIDE SHOW</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>Hello there, type any number between 1-24 below to see a picutre  </h1>
+  
+  <form id="form">
+    <input  type="number" min="1"  max="24" value="1" name="busca" id="input" placeholder="Search Pictures"  >
+    <input class="changeColor" id="btnsubmit" type="submit" onclick="">
+  </form>
+
+  <button class="seepictures changeColor" id="btnStopPicture" >Stop Pictures</button>
+
+  <div id="container" class="container">
+  <div id="boxpicture" class="boxCpicture"></div>
+  </div>
+
+  <!-- <button id="btnShowPicture" onclick="ShowPicture()">Show Pictures</button> -->
+  <!-- <button id="btnShowPicture">Show Pictures</button> -->
+
+
 </body>
 </html>
